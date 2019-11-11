@@ -9,13 +9,15 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="main.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
+        <div class="deck">
+            <h1>A Deck of Cards</h1>
+            <a href="javascript:void(0)" onclick="shuffle()" class="btn">Shuffle</a>
+            <div id="deck"></div>
+        </div>
     </body>
 </html>
